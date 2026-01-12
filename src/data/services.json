@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Raw Talking Videos",
+    "description": "Build brand trust with authentic, face-to-camera storytelling that connects directly with your audience.",
+    "iconName": "Mic"
+  },
+  {
+    "title": "Hands-only Demos",
+    "description": "Perfect for Amazon listings and detailed product showcases where the focus is strictly on the functionality.",
+    "iconName": "Layers"
+  },
+  {
+    "title": "Voice-over Reviews",
+    "description": "Problem-solution narratives layered over aesthetic B-roll for high engagement.",
+    "iconName": "Video"
+  },
+  {
+    "title": "Unboxing Experiences",
+    "description": "Capture the genuine excitement of first impressions for product launches.",
+    "iconName": "Box"
+  },
+  {
+    "title": "Aesthetic Product Shots",
+    "description": "High-quality, organic Instagram content that fits your brand's visual identity.",
+    "iconName": "Camera"
+  },
+  {
+    "title": "Hook-Based Ads",
+    "description": "Stop the scroll immediately with psychology-backed visual and audio hooks.",
+    "iconName": "Zap"
+  },
+  {
+    "title": "Comparison Videos",
+    "description": "Directly compare product value propositions to drive decision making.",
+    "iconName": "ShoppingBag"
+  },
+  {
+    "title": "Text-on-Screen",
+    "description": "Optimized for silent viewing users on Reels and TikTok.",
+    "iconName": "Smartphone"
+  }
+]

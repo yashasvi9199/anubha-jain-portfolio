@@ -1,0 +1,16 @@
+{
+  "name": "Anubha Jain",
+  "role": "UGC Creator & Strategist",
+  "headline": "Transforming Brand Stories into Revenue.",
+  "subheadline": "I help brands increase trust, engagement, and conversions through authentic, raw, and scroll-stopping content designed for Instagram, Reels, and Amazon.",
+  "stats": [
+    { "value": "50+", "label": "Videos Created" },
+    { "value": "100k+", "label": "Views Generated" }
+  ],
+  "image": "/assets/pic1.webp",
+  "socials": {
+    "email": "ugcstudio.anubha@gmail.com",
+    "instagram": "https://instagram.com/ugcstudio.hub",
+    "instagramHandle": "@ugcstudio.hub"
+  }
+}

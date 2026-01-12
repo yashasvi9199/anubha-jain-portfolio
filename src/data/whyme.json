@@ -1,0 +1,25 @@
+{
+  "benefits": [
+    {
+      "title": "Native & Organic Feel",
+      "description": "Content that blends seamlessly into feeds, looking like peer recommendations rather than traditional ads.",
+      "iconName": "ShieldCheck"
+    },
+    {
+      "title": "High Retention Storytelling",
+      "description": "Strong hooks and structured narratives designed to keep viewers watching until the CTA.",
+      "iconName": "MessageCircle"
+    },
+    {
+      "title": "Ad-Optimized",
+      "description": "Videos specifically formatted for Instagram Reels, Shorts, and paid ad placements to maximize ROI.",
+      "iconName": "CheckCircle2"
+    },
+    {
+      "title": "Fast Turnaround",
+      "description": "Quick communication and delivery within 48-72 hours, with brand-friendly revision rounds.",
+      "iconName": "Clock"
+    }
+  ],
+  "image": "/assets/pic2.webp"
+}
