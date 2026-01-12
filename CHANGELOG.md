@@ -1,5 +1,12 @@
 # version 0.1
 
+## 0.1.3
+
+- change: Upgrade to Tailwind CSS v4 configuration
+- fix: Resolve PostCSS plugin error by using @tailwindcss/postcss
+- change: Move theme configuration from tailwind.config.js to src/index.css (CSS-first configuration)
+- removed: Delete obsolete tailwind.config.js
+
 ## 0.1.2
 
 - fix: Update asset paths in profile.json and portfolio.json to be relative (fix 404 errors)
