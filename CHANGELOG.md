@@ -1,5 +1,10 @@
 # version 0.1
 
+## 0.1.6
+
+- fix: Remove leading slashes from all asset paths in JSON data to support GitHub Pages subpaths
+- fix: Ensure relative path resolution across all sections (Hero, Portfolio, WhyMe)
+
 ## 0.1.5
 
 - fix: Restore absolute asset paths (leading slashes) to ensure images load correctly

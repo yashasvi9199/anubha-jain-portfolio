@@ -4,8 +4,8 @@
     "title": "Victoria's Secret Campaign",
     "category": "Beauty",
     "type": "video",
-    "thumbnail": "/assets/victoria-secret-thumb.png",
-    "mediaUrl": "/assets/victoria-secret-demo.mp4",
+    "thumbnail": "assets/victoria-secret-thumb.png",
+    "mediaUrl": "assets/victoria-secret-demo.mp4",
     "tags": ["Campaign", "Beauty", "Professional"]
   },
   {
@@ -13,8 +13,8 @@
     "title": "Wishcare Product Demo",
     "category": "Skincare",
     "type": "video",
-    "thumbnail": "/assets/wishcare-demo-1-thumb.png",
-    "mediaUrl": "/assets/wishcare-demo-1.mp4",
+    "thumbnail": "assets/wishcare-demo-1-thumb.png",
+    "mediaUrl": "assets/wishcare-demo-1.mp4",
     "tags": ["Demo", "Skincare", "Review"]
   },
   {
@@ -22,8 +22,8 @@
     "title": "Wishcare Advanced Review",
     "category": "Skincare",
     "type": "video",
-    "thumbnail": "/assets/wishcare-demo-2-thumb.png",
-    "mediaUrl": "/assets/wishcare-demo-2.mp4",
+    "thumbnail": "assets/wishcare-demo-2-thumb.png",
+    "mediaUrl": "assets/wishcare-demo-2.mp4",
     "tags": ["Review", "Skincare", "Tutorial"]
   }
 ]
