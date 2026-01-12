@@ -1,5 +1,11 @@
 # version 0.1
 
+## 0.1.4
+
+- change: Switch to @tailwindcss/vite plugin for better integration and reliability
+- removed: Delete postcss.config.js (replaced by Vite plugin)
+- fix: Resolve "using tailwindcss directly as a PostCSS plugin" error once and for all
+
 ## 0.1.3
 
 - change: Upgrade to Tailwind CSS v4 configuration
