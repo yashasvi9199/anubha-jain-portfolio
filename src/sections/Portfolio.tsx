@@ -3,6 +3,7 @@ import { Play, X } from 'lucide-react';
 import { motion, useScroll, useTransform, MotionValue } from 'framer-motion';
 import portfolioData from '../data/portfolio.json';
 import { PortfolioItem } from '../types';
+import { getAssetUrl } from '../utils/assetUtils';
 
 
 interface ProjectCardProps {
@@ -36,7 +37,7 @@ function ProjectCard({ item, onClick }: ProjectCardProps): ReactElement {
       <div className="aspect-[9/16] relative overflow-hidden">
         <motion.img 
           style={{ y, scale }}
-          src={item.thumbnail} 
+          src={getAssetUrl(item.thumbnail)} 
           alt={item.title} 
           className="w-full h-full object-cover"
         />
@@ -164,17 +165,17 @@ export function Portfolio(): ReactElement {
           >
             {selectedItem.type === 'video' ? (
               <video 
-                src={selectedItem.mediaUrl} 
+                src={getAssetUrl(selectedItem.mediaUrl)} 
                 controls 
                 autoPlay 
                 className="w-full h-auto max-h-[80vh]"
-                poster={selectedItem.thumbnail}
+                poster={getAssetUrl(selectedItem.thumbnail)}
               >
                 Your browser does not support the video tag.
               </video>
             ) : (
               <img 
-                src={selectedItem.mediaUrl || selectedItem.thumbnail} 
+                src={getAssetUrl(selectedItem.mediaUrl || selectedItem.thumbnail)} 
                 alt={selectedItem.title}
                 className="w-full h-auto max-h-[80vh] object-contain" 
               />

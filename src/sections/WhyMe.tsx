@@ -3,6 +3,7 @@ import whyMeData from '../data/whyme.json';
 import { Icon } from '../utils/IconMapper';
 import { motion } from 'framer-motion';
 import { WhyMeData } from '../types';
+import { getAssetUrl } from '../utils/assetUtils';
 // import profile from '../assets/pic2.webp';
 
 
@@ -35,7 +36,7 @@ export function WhyMe(): ReactElement {
             >
                 <div className="aspect-[4/5] rounded-lg overflow-hidden border border-white/5">
                     <img 
-                    src={whyMeData.image} 
+                    src={getAssetUrl(whyMeData.image)} 
                         alt="Content Creation Process" 
                         className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                     />

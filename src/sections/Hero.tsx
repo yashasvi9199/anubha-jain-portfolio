@@ -2,6 +2,7 @@ import { useRef, ReactElement } from 'react';
 import { ArrowRight, Sparkles } from 'lucide-react';
 import { motion, useScroll, useTransform, MotionValue } from 'framer-motion';
 import profileData from '../data/profile.json';
+import { getAssetUrl } from '../utils/assetUtils';
 
  
 export function Hero(): ReactElement {
@@ -105,7 +106,7 @@ export function Hero(): ReactElement {
         >
           <div className="absolute inset-0 bg-surface rounded-t-[10rem] rounded-b-lg border border-white/5 overflow-hidden group">
             <img 
-              src={profileData.image} 
+              src={getAssetUrl(profileData.image)} 
               alt={`${profileData.name} - Creator`} 
               className="w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-700"
             />

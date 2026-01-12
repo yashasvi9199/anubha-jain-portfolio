@@ -1,5 +1,12 @@
 # version 0.1
 
+## 0.1.7
+
+- fix: Implement code-based asset resolution using `import.meta.env.BASE_URL`
+- feature: Add `getAssetUrl` utility to handle path resolution for public assets consistently across Dev and GitHub Pages
+- fix: Update `tsconfig.json` to include `vite/client` types for environment variable support
+- fix: Update Hero, Portfolio, and WhyMe sections to use the new resolution utility
+
 ## 0.1.6
 
 - fix: Remove leading slashes from all asset paths in JSON data to support GitHub Pages subpaths
