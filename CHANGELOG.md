@@ -1,5 +1,9 @@
 # version 0.1
 
+## 0.1.8
+
+- feature: Generate and add a custom premium favicon for the UGC Creator portfolio
+
 ## 0.1.7
 
 - fix: Implement code-based asset resolution using `import.meta.env.BASE_URL`
