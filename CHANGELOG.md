@@ -1,5 +1,11 @@
 # version 0.1
 
+## 0.1.5
+
+- fix: Restore absolute asset paths (leading slashes) to ensure images load correctly
+- fix: Cleaned up index.html to remove redundant CDN scripts and incorrect CSS link providing "text/html" MIME type
+- fix: Resolved path resolution issues between local dev and production build
+
 ## 0.1.4
 
 - change: Switch to @tailwindcss/vite plugin for better integration and reliability
